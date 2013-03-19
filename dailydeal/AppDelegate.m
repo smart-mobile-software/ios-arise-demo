@@ -8,8 +8,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [self customizeGlobalTheme];
-    
-    
+   
     [AriseAB setupWithKey:@"4be79585-b382-4760-8d66-bdc37c7a20fb" rpcURL:@"http://rpc.arise.io:41674/"];
     
     return YES;

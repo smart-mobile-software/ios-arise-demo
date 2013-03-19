@@ -29,7 +29,7 @@
 		7F9E61BB1623689900972A7B /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F9E61BA1623689900972A7B /* Default-568h@2x~iphone.png */; };
 		7FC0864216236A99004A4A00 /* UIImage+iPhone5.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0864116236A99004A4A00 /* UIImage+iPhone5.m */; };
 		7FC0864416236B54004A4A00 /* background_deals-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC0864316236B54004A4A00 /* background_deals-568h@2x~iphone.png */; };
-		AF8F307F16E4A9B800657C62 /* Arise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8F307E16E4A9B800657C62 /* Arise.framework */; };
+		AF07C94816EF979800522787 /* Arise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF07C94716EF979800522787 /* Arise.framework */; };
 		AF8F308116E4AB7500657C62 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8F308016E4AB7500657C62 /* libsqlite3.dylib */; };
 		AFDCD7A316E49A0B0047B5DD /* cucumber.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFDCD79F16E49A0B0047B5DD /* cucumber.jpg */; };
 		AFDCD7A416E49A0B0047B5DD /* potatoes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFDCD7A016E49A0B0047B5DD /* potatoes.jpg */; };
@@ -148,7 +148,7 @@
 		7FC0864016236A99004A4A00 /* UIImage+iPhone5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+iPhone5.h"; sourceTree = "<group>"; };
 		7FC0864116236A99004A4A00 /* UIImage+iPhone5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+iPhone5.m"; sourceTree = "<group>"; };
 		7FC0864316236B54004A4A00 /* background_deals-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_deals-568h@2x~iphone.png"; sourceTree = "<group>"; };
-		AF8F307E16E4A9B800657C62 /* Arise.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Arise.framework; sourceTree = "<group>"; };
+		AF07C94716EF979800522787 /* Arise.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Arise.framework; sourceTree = "<group>"; };
 		AF8F308016E4AB7500657C62 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		AFDCD79F16E49A0B0047B5DD /* cucumber.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cucumber.jpg; sourceTree = "<group>"; };
 		AFDCD7A016E49A0B0047B5DD /* potatoes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoes.jpg; sourceTree = "<group>"; };
@@ -237,7 +237,7 @@
 				355135021515175A000D9F55 /* UIKit.framework in Frameworks */,
 				355135041515175A000D9F55 /* Foundation.framework in Frameworks */,
 				355135061515175A000D9F55 /* CoreGraphics.framework in Frameworks */,
-				AF8F307F16E4A9B800657C62 /* Arise.framework in Frameworks */,
+				AF07C94816EF979800522787 /* Arise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +268,7 @@
 		355135001515175A000D9F55 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AF8F307E16E4A9B800657C62 /* Arise.framework */,
+				AF07C94716EF979800522787 /* Arise.framework */,
 				355135011515175A000D9F55 /* UIKit.framework */,
 				355135031515175A000D9F55 /* Foundation.framework */,
 				355135051515175A000D9F55 /* CoreGraphics.framework */,

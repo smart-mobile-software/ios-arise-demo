@@ -28,6 +28,31 @@ static NSString * const ImageStateSelected = @"_selected";
 @synthesize detailViewController = _detailViewController;
 @synthesize testIndex;
 
+- (void)selectTest{
+    
+    
+    NSLog(@"attempting test");
+    
+    [AriseAB testWithName:@"detailViewLayout" A:^{
+        testIndex = 0;
+        NSLog(@"changing layout index to %d", testIndex);
+    } B:^{
+        testIndex = 1;
+        NSLog(@"changing layout index to %d", testIndex);
+    }
+     ];
+
+    
+}
+
+- (IBAction)doABTest:(id)sender{
+    
+    
+    [self performSelector:@selector(selectTest) withObject:nil afterDelay:1];
+       
+
+}
+
 - (void)awakeFromNib
 {
       [super awakeFromNib];
@@ -47,15 +72,7 @@ static NSString * const ImageStateSelected = @"_selected";
     
     testIndex = 0;
     
-    [AriseAB testWithName:@"detailViewLayout" A:^{
-        testIndex = 0;
-        NSLog(@"changing layout index to %d", testIndex);
-    } B:^{
-        testIndex = 1;
-        NSLog(@"changing layout index to %d", testIndex);
-    }];
-
-    
+      
 }
 
 - (void)viewDidUnload
@@ -71,6 +88,11 @@ static NSString * const ImageStateSelected = @"_selected";
         currentSelectedDeal = [NSIndexPath indexPathForRow:0 inSection:0];
         [self selectCellAtIndexPath:currentSelectedDeal];
     }
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    
+    [self doABTest:self];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
